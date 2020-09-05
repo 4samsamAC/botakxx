@@ -10,4 +10,4 @@ bot.on('ready', async () =>{
     }, 100);
 });
 
-bot.login("NjU2MjUxNjU4ODQ5ODc4MDc3.Xff7_A.0PKXENLExA14GhNuBmHIg29dqgk");
+bot.login(process.env.TOKEN);
