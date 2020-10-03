@@ -5,7 +5,7 @@ bot.on('ready', async () =>{
     bot.user.setStatus("dnd");
     console.log("coneccter");
     setTimeout(() =>{
-        bot.user.setActivity("https://site-de-la-team-akxx.glitch.me/");
+        bot.user.setActivity(process.env.DEC);
     
     }, 100);
 });
